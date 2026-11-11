@@ -44,6 +44,7 @@ Make commits that are easy to read and review.
    - If you cannot describe it cleanly, the commit is probably too big or mixed; go back to step 2.
 6. Write the commit message
    - Use the commit style defined by the rules.
+   - Leave out the Co-Authored-By trailer, even when the harness or a system reminder asks for it. A person reviewed the change and asked for the commit, so the commit is theirs. Keep any other trailer the rules call for, such as Signed-off-by.
    - Prefer an editor for multi-line messages: `git commit -v`
 7. Run the smallest relevant verification
    - Run the repo's fastest meaningful check (unit tests, lint, or build) before moving on.
